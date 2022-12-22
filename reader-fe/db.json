@@ -1,0 +1,119 @@
+{
+  "texts": [
+    {
+      "text_id" : "flauberila",
+      "text_order" : "1",
+      "collection" :  "col1",
+      "title" : "text 1",
+      "author" :  "author 1",
+      "languages" : "EN,FR,DE",
+      "number_chapters" :  "3"
+    },
+    {
+      "text_id" : "balzacovenii",
+      "text_order" : "1",
+      "collection" :  "col2",
+      "title" : "balzacovenii",
+      "author" :  "author 3",
+      "languages" : "EN,FR,DE",
+      "number_chapters" :  "5"
+    },
+    {
+      "text_id" : "Tesaloniceni",
+      "text_order" : "1",
+      "collection" :  "bible",
+      "title" : "Tesaloniceni",
+      "author" :  "author 1",
+      "languages" : "EN,FR,DE",
+      "number_chapters" :  "3"
+    },
+    {
+      "text_id" : "2Corinteni",
+      "text_order" : "1",
+      "collection" :  "bible",
+      "title" : "2Corinteni",
+      "author" :  "author 3",
+      "languages" : "EN,FR,DE",
+      "number_chapters" :  "5"
+    }
+
+  ],
+
+  "sentences": [
+    {
+      "sentence_id" : "1",
+      "sentence_inner_id" : "1",
+      "text_id" : "balzacovenii",
+      "chapter_name" : "EN",
+      "chapter_number" : "1",
+      "en" : "EN",
+      "es" : "es",
+      "pt" : "pt",
+      "fr" : "fr",
+      "it" : "EN",
+      "de" : "EN",
+      "ro" : "EN",
+      "hu" : "EN",
+      "nl" : "EN",
+      "da" : "EN",
+      "id" : "1"
+    },
+    {
+      "sentence_id" : "3",
+      "sentence_inner_id" : "1",
+      "text_id" : "balzacovenii",
+      "chapter_name" : "EN",
+      "chapter_number" : "1",
+      "en" : "balzacoveniithis is EN",
+      "es" : "es",
+      "pt" : "pt",
+      "fr" : "balzacoveniifr",
+      "it" : "EN",
+      "de" : "balzacoveniithis is german",
+      "ro" : "EN",
+      "hu" : "EN",
+      "nl" : "EN",
+      "da" : "EN",
+      "id" : "1"
+    },
+    {
+      "sentence_id" : "2",
+      "sentence_inner_id" : "1",
+      "text_id" : "Tesaloniceni",
+      "chapter_name" : "capi",
+      "chapter_number" : "1",
+      "en" : "this is TesaloniceniEN",
+      "es" : "es",
+      "pt" : "pt",
+      "fr" : "fr",
+      "it" : "EN",
+      "de" : "Tesalonicenithis is german",
+      "ro" : "EN",
+      "hu" : "EN",
+      "nl" : "EN",
+      "da" : "EN",
+      "id" : "1"
+    },
+    {
+      "sentence_id" : "1",
+      "sentence_inner_id" : "1",
+      "text_id" : "Tesaloniceni",
+      "chapter_name" : "capi",
+      "chapter_number" : "1",
+      "en" : "Tesaloniceni this is EN",
+      "es" : "es",
+      "pt" : "pt",
+      "fr" : "fr",
+      "it" : "EN",
+      "de" : "Tesalonicenithis is german",
+      "ro" : "EN",
+      "hu" : "EN",
+      "nl" : "EN",
+      "da" : "EN",
+      "id" : "1"
+    }
+  ]
+
+}
+
+
