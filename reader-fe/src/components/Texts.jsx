@@ -1,21 +1,13 @@
 import { Link } from 'react-router-dom'
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Box from '@mui/material/Box';
+import { Box, Accordion , AccordionSummary, AccordionDetails, Typography, Grid } from '@mui/material';
 import { useEffect, useState } from "react";
 import { Container } from '@mui/system';
-import Grid from '@mui/material/Grid';
 
 
 
 
 const Texts = () => {
     const [texts, setTexts] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
 
     const fetchTexts = async () => {
         const res = await fetch('http://127.0.0.1:8000/api/texts/')

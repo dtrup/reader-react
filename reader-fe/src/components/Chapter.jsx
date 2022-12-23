@@ -1,20 +1,10 @@
 import * as React from 'react';
-import {Link, useParams, useLocation} from 'react-router-dom'
+import { useParams, useLocation} from 'react-router-dom'
 import {useEffect, useState, useMemo} from "react"
+import { Box, Typography, Grid, Radio, Checkbox, RadioGroup, FormControlLabel,FormControl, Button } from '@mui/material';
 import axios from "axios"
-import Radio from '@mui/material/Radio';
-import Checkbox from '@mui/material/Checkbox';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import useLocalStorage from "./useLocalStorage";
 import { Container } from '@mui/system';
-import ButtonGroup from '@mui/material/ButtonGroup';
 
 
 const Chapter = () => {
@@ -25,7 +15,7 @@ const Chapter = () => {
     
     const textRecord = useLocation().state.item;
     const chapters = useMemo(() =>  Array(textRecord.number_chapters).fill(0).map((e,i)=>i+1));
-    const [languages, setLanguages] = useState(textRecord.languages.toLowerCase().split(","));
+    const languages = useMemo(() => textRecord.languages.toLowerCase().split(","));
     const [chapterData, setChapterData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
